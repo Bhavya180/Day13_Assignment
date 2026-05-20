@@ -24,10 +24,10 @@
 			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
-					"referenceName": "keyforall",
+					"referenceName": "LS_AzureKeyVault",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "sqldb"
+				"secretName": "sqlpassword"
 			}
 		}
 	}
